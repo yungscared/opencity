@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' type='government'>
+    <cost build='6000' destroy='500' support='230'/>
+    <r>
+      <need max='35' min='5'/>
+      <provide max='2'/>
+    </r>
+    <c>
+      <need max='45'/>
+      <provide max='2'/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <t>
+      <need/>
+      <provide max='2' min='1'/>
+    </t>
+    <w>
+      <need max='1'/>
+      <provide/>
+    </w>
+    <e>
+      <need/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='6'/>
+    </nature>
+    <direction value='snwe'/>
+  </property>
+  <model length='1' height='0.32' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Cidatin</name>
+    <name lang='en'>Cityzen</name>
+    <name lang='de'>Park</name>
+    <description lang='fr'>Espace vert.</description>
+    <description lang='en'>Green place.</description>
+    <description lang='de'>Grüner Platz.</description>
+  </model>
+</object>

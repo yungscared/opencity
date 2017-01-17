@@ -1,0 +1,312 @@
+==============================================================================
+OpenCity TODO version 0.0.6 DEV
+--------------------------------------
+Last modified:
+	$Id: TODO 342 2008-04-07 20:51:42Z neoneurone $
+
+Use less triangles to render water    (done)
+Improve alpha display                 (done)
+Improve culling calculation           (done)
+Remove unused OCM model               (done)
+Add 1 state button                    (done)
+Add new query icons                   (done)
+Improved query circle                 (done)
+Improved selection calculation        (done)
+Improved selection hot zone           (done)
+Add heightmap into the release        (done)
+XML parameters accessors
+Save file version check
+Crime
+Review the message system
+Review the agent creation process
+Police agent system
+Mouse cursor support
+Unblocking networking layer
+ZeN online map loading
+Earthquake
+
+
+
+==============================================================================
+Planed for future version
+-------------------------
+Subdivide map for better performance  (0.0.3 +)
+Settings GUI                          (0.0.3 +)
+Help system
+Internationalization
+Zone density
+Sea-port
+Air-port
+Gas
+Highway
+Subway
+Arcologies
+Land-mark
+Shanties
+Rendering plugins:
+        Snow, rain, fall, night
+Event plugin:
+        French attitude ...
+
+Water layer
+Water pipe
+Water pump
+Water tower
+Water micro simulator
+Tree micro simulator
+Add new vehicle models
+Fix the orthogonal projection
+Fire
+Explosion
+Nature micro simulator: earthquake
+Improve vehicle rendering
+Review the agent creation process
+Review the message system
+Rail road
+Rail station
+Train models
+Crime
+Police agent system
+Unblocking networking layer
+Add online operation notification clock
+ZeN online map loading
+Fix city size settings bug
+Add the simulator accelerator key
+Make the simulator CPU independant
+Texture lighting
+
+
+
+==============================================================================
+OpenCity TODO version 0.0.5 BETA - STABLE
+--------------------------------------
+Last updated dec 12th, 2007
+
+Remove -no-dl option                  (done)
+Fullscreen config variable support    (done)
+Fullscreen high resolution autodetect (done)
+Add --fullscreen                      (done)
+Global city dimensions variable       (done)
+Global settings structure             (done)
+Water texture                         (done)
+TinyXML 2.5.2 integration             (done)
+Fix path building bug                 (done)
+Fix graphist's special test feature   (done)
+Add GetFloat() to Conf class          (done)
+Add --noaudio                         (done)
+Reduce CPU usage when iconified       (done)
+Fix bug #1596555                      (done)
+Fix building resize bug               (done)
+Add label alignment attribute         (done)
+Add population computation            (done)
+Save file format version              (done)
+Save ressource statistics             (done)
+Fix the income system                 (done)
+Fix terrain highlight bug             (done)
+Fix load/save toolcircle bug          (done)
+Add the coal power plant              (done)
+TinyXPath 1.2.4 integration           (done)
+Add save/load file versioning         (done)
+Fix TinyXPath 1.2.4 64 bits bug       (done)
+Add map generator commandline options (done)
+Basic LOD                             (done)
+Basic 3D object culling               (done)
+Improved 3D object culling            (done)
+Fix STL comparison functor bug        (done)
+Toggle terrain/water/structure display(done)
+Mini RCI map                          (done)
+Create trees on the map at start      (done)
+Add SimpleOpt as command line parser  (done)
+Add MapMaker as global class          (done)
+Fix culling algorithm while dragging  (done)
+Add main menu                         (done)
+
+Integrate the new status bar          (done)
+	Add speed button                  (done)
+	Add RCI bars                      (done)
+	Fix RCI bars ratio                (done)
+	Fix P bar ratio                   (done)
+	Add toolcircle button             (done)
+
+XML metadata migration                (done)
+	Load model dimensions             (done)
+	Load model direction              (done)
+	Load cost                         (done)
+	Load property attributes          (done)
+	Load RCI, WEG, TN values          (done)
+
+Review the licensing                  (done)
+Variable name clean up                (done)
+LBS/FHS layout                        (done)
+Add the manual page                   (done)
+
+
+
+==============================================================================
+OpenCity TODO version 0.0.4 BETA - STABLE
+-----------------------------------------
+Last updated oct 8th, 2006
+
+Implement the MAS library             (done)
+MAS integration                       (done)
+Review the debug macros               (done)
+Reduce the number of threads          (done)
+Terrain save/load feature             (done)
+Create MAS debug macro                (done)
+Fix the MAS 0, 0 coordinates bug      (done)
+Fix the raise/lower terrain cost      (done)
+Hospital model                        (done)
+Terrain generation                    (done)
+Trees                                 (done)
+Convert road OCM files to AC          (done)
+Clean up the MAS library              (done)
+Convert the terrain to display list   (done)
+Fix building resize bug               (done)
+Fix vehicle display bug               (done)
+Fix splash display bug                (done)
+Fix save/load character ignoring bug  (done)
+Fix save/load stream buffer misuse    (done)
+Multi plateform save file format      (done)
+Remove moving vehicles while loading  (done)
+City save/load feature                (experimental)
+Multi plateform save/load path        (experimental)
+Toolcircle shadow                     (done)
+Fix simulator value                   (done)
+Fix save/load GUI bug                 (done)
+Fix Win32 windows resize bug          (done)
+Tell us save/load bug                 (pending)
+
+
+
+==============================================================================
+OpenCity TODO version 0.0.3 BETA - STABLE
+-----------------------------------------
+Last updated jan 24th, 2006
+
+Create autopackage                    (done)
+Improve grass texture                 (done)
+Add first level RCI models            (done)
+Update PDF                            (done)
+Fix near plan in orthogonal mode      (done)
+Build over roads and electric lines   (done)
+Add BinReloc routines                 (done)
+Disable hospital icon                 (done)
+Disable "a" toolcircle                (done)
+Handle " (double-quote) in --homedir  (done)
+Disable 32bits requirement            (done)
+Customize installation path under win32 (done)
+Ship necessary docs for end users     (done)
+Domain transfert                      (done)
+1024x768 fullscreen mode              (done)
+Splashscreen rewrite                  (done)
+New OpenGL font system                (done)
+Simulation code retouch               (done)
+Build over the existing RCI zones     (done)
+New selection method                  (done)
+Low video quality mode support        (done)
+Show the structure while building     (done)
+Improve structure placement algorithm (done)
+Improve win32 compilation support     (done)
+Memory leaks fix                      (done)
+Win32 starting crash fix              (done)
+AC3D internal structure rewrite       (done)
+AC3D rendering rewrite                (done)
+Auto-triangulating loader             (done)
+Autoheader                            (done)
+HomeDir config variable               (done)
+One texture file per model            (done)
+
+Code cleaning up
+    mapGetSquareHeight2               (done)
+    debug message                     (done)
+    enumeration                       (done)
+Update the UML design                 (done)
+Update the OpenCity design draft      (done)
+NURBS surface                         (held over)
+Improve electricity transmission      (held over)
+New algorithm for moving object       (held over)
+-
+Doxygen it                            (done)
+AC3D file support                     (done)
+Texture mirroring                     (done)
+Trim out the space around = in .conf  (done)
+Dynanimize structure's size           (done)
+Park                                  (done)
+Splash screen                         (done)
+Buffer for textures loading           (done)
+School                                (done)
+Fire station                          (done)
+Police station                        (done)
+Dynanimize OC_SIMULATOR_LAG           (done)
+Design networking protocole v0.0.3    (done)
+Frodrigo's models integration         (done)
+Auto-scaling texture                  (done)
+Terrain texturing                     (done)
+
+
+
+==============================================================================
+OpenCity TODO version 0.0.2 BETA - STABLE
+-----------------------------------------
+Last updated on thu sep 7th, 2004
+
+Improve win32 support                 (done)
+Config file .conf support             (done)
+Compass                               (done)
+Improve graphics                      (done)
+Codes cleaning up                     (done)
+-
+Destroy tool                          (done)
+Electricity sim rewrite               (done)
+GUI                                   (done)
+Blender mouse's wheel's behaviour     (done)
+AM_PATH_SDL                           (done)
+Tool circle                           (done)
+Query tool                            (done)
+Traffic simulator                     (done)
+Improve rendering for selection       (done)
+Improve rendering for highlighting    (done)
+Lighting                              (done)
+OpenCity Models (OCM) minimal support (done)
+Improve debugging macros              (done)
+Dijkstra algorithm                    (done)
+Euclidian heuristic                   (done)
+Minimal vehicule animation            (done)
+Floating point vehicule coordinates   (done)
+Inaccurate normals if negative zoom ratio (done)
+Move #define from main.h to appropriate files (done)
+Better vehicule display algo          (done)
+DIY cool sound effects ;)             (done)
+Review GUIButton algo                 (done)
+Remove pcMap from graphicmanager      (done)
+OCM texture aware                     (done)
+
+
+
+==============================================================================
+OpenCity TODO version 0.0.1 BETA - STABLE
+-----------------------------------------
+Last updated on thu feb 21th, 2004
+
+RCI zoning                            (done)
+Ctrl cancels the dragging action      (done)
+Sound & Music support                 (done)
+Terraforming                          (done)
+Road                                  (done)
+Electricity:
+        Powerline, powerplant         (done)
+RCI simulator                         (done)
+WEG simulator (Electricity)           (done)
+-
+Optimization of the rendering engine  (done)
+Bugs fix                              (done)
+Simulator tuning                      (done)
+Classic orthogonal projection         (done)
+MacOS X port                          (held over)
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='3' worker='3' type='i'>
+    <cost destroy='2000' income='112'/>
+    <r>
+      <need/>
+      <provide/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need max='12'/>
+      <provide max='3' min='1'/>
+    </i>
+    <t>
+      <need min='1'/>
+      <provide max='4' min='2'/>
+    </t>
+    <w>
+      <need/>
+      <provide/>
+    </w>
+    <e>
+      <need max='1'/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-3'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.55' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Hangar</name>
+    <name lang='en'>Penthouse</name>
+    <name lang='de'>Lagerhalle</name>
+    <description lang='fr'>Stockage de tuyaux et de machins bizarres en metal.</description>
+    <description lang='en'>Pipes and strange metal sheet storage.</description>
+    <description lang='de'>Rohre und komische Metallplatten werden hier gelagert.</description>
+  </model>
+</object>

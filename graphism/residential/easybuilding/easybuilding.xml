@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='3' inhabitant='4' type='r'>
+    <cost destroy='1800' income='112'/>
+    <r>
+      <need max='12'/>
+      <provide max='2'/>
+    </r>
+    <c>
+      <need max='16'/>
+      <provide/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <t>
+      <need/>
+      <provide max='2' min='1'/>
+    </t>
+    <w>
+      <need max='1'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='1'/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-1'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.6' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='en'>EasyBuilding Kit-0145C3</name>
+    <description lang='fr'>Personne ne veut une maison comme cela, mais tout le monde en a parce qu&apos;elle ne sont pas chère.</description>
+    <description lang='en'>Nobody wants a house like that, but everybody has it because is cheap.</description>
+    <description lang='de'>Niemand will ein Haus wie dieses, aber jeder hat es, denn es ist billig.</description>
+  </model>
+</object>

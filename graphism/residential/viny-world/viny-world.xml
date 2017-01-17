@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='13' worker='8' inhabitant='1200' type='r'>
+    <cost destroy='60000' income='136'/>
+    <r>
+      <need max='200' min='10'/>
+      <provide max='55' min='12'/>
+    </r>
+    <c>
+      <need min='10'/>
+      <provide/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <t>
+      <need min='35'/>
+      <provide max='500' min='100'/>
+    </t>
+    <w>
+      <need max='45'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='50'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='20'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-12'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='5' width='5'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='en'>The Viny World</name>
+    <description lang='fr'>Tel le ciel, les fenêtres sont bleu ;)</description>
+    <description lang='en'>Like the sky, this windows are blue ;)</description>
+    <description lang='de'>Wie der Himmel, sind diese Fenster Blau ;)</description>
+  </model>
+</object>

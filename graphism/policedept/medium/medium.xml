@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='10' worker='16' type='government'>
+    <cost build='30000' destroy='2700' support='3100'/>
+    <r>
+      <need max='40'/>
+      <provide max='5'/>
+    </r>
+    <c>
+      <need/>
+      <provide max='6'/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <t>
+      <need/>
+      <provide max='9' min='2'/>
+    </t>
+    <w>
+      <need max='2'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='2'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='2'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-3'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='2' height='1.5' width='2'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Gendarmerie</name>
+    <name lang='en'>Police Departement</name>
+    <name lang='de'>Polizeiwache</name>
+    <description lang='fr'>Caserne de gendamerie de taille moyenne.</description>
+    <description lang='en'>Medium size Police Station.</description>
+    <description lang='de'>Eine mittelgroße Polizeistation.</description>
+  </model>
+</object>

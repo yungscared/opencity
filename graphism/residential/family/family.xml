@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' inhabitant='6' type='r'>
+    <cost destroy='2100' income='116'/>
+    <r>
+      <need max='17'/>
+      <provide max='3'/>
+    </r>
+    <c>
+      <need max='20'/>
+      <provide/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <t>
+      <need min='1'/>
+      <provide max='3' min='1'/>
+    </t>
+    <w>
+      <need max='2'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='2'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='1'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-1'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.6' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Maison familiale des États-Unis</name>
+    <name lang='en'>USA family&apos;s house</name>
+    <name lang='de'>USA Familienhaus</name>
+    <description lang='fr'>Maison typique des États-Unis (mais le garage de celle-là est trop petit pour un hummer).</description>
+    <description lang='en'>Typical USA house (but the garage of this one is too small for a hummer).</description>
+    <description lang='de'>Ein typisches Familien Haus aus den USA (allerdings ist die Garager ist zu klein für einen Hummer)</description>
+  </model>
+</object>

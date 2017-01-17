@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' worker='8' type='i'>
+    <cost destroy='3500' income='128'/>
+    <r>
+      <need/>
+      <provide max='-2'/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need max='19'/>
+      <provide max='3' min='1'/>
+    </i>
+    <t>
+      <need/>
+      <provide max='3' min='1'/>
+    </t>
+    <w>
+      <need max='4'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='3'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='2'/>
+      <provide/>
+    </g>
+    <nature>
+      <need max='-15'/>
+      <provide max='-2'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.75' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Abattoir</name>
+    <name lang='en'>Slaughterhouse</name>
+    <name lang='de'>Schlachthaus</name>
+    <description lang='fr'>Attention, ne pas entrer si vous avez peur des fantomes de vaches.</description>
+    <description lang='en'>Warning, if you dislike cows ghosts do not enter.</description>
+    <description lang='de'>Warnung, wenn Sie angst vor Geister-Kühen haben, sollten sie nicht eintreten.</description>
+  </model>
+</object>

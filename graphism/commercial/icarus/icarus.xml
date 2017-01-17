@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='16' worker='360' type='c'>
+    <cost destroy='100000' income='148'/>
+    <r>
+      <need min='5'/>
+      <provide max='10' min='2'/>
+    </r>
+    <c>
+      <need max='200' min='15'/>
+      <provide max='110' min='45'/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <t>
+      <need min='50'/>
+      <provide max='330' min='180'/>
+    </t>
+    <w>
+      <need max='60'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='70'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='40'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-15'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='3' height='19.57' width='2'>
+    <author>
+      <name>Nicolas PASCOLI </name>
+      <email>nicolas-pascoli hotmail.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>L&apos;Icare</name>
+    <name lang='en'>Icarus</name>
+    <name lang='de'>Ikarus</name>
+    <description lang='fr'>Centre d&apos;affaire l&apos;Icare</description>
+    <description lang='en'>Icarus Business Center</description>
+    <description lang='de'>Ikarus Geschäftszentrum</description>
+  </model>
+</object>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' worker='1' type='c'>
+    <cost income='100'/>
+    <r>
+      <need max='10'/>
+      <provide/>
+    </r>
+    <c>
+      <need max='20'/>
+      <provide max='3' min='1'/>
+    </c>
+    <i>
+      <need max='50'/>
+      <provide/>
+    </i>
+    <t>
+      <need min='5'/>
+      <provide max='15' min='5'/>
+    </t>
+    <w>
+      <need/>
+      <provide/>
+    </w>
+    <e>
+      <need/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need max='-15'/>
+      <provide/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.3' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='en'>Chez Bob</name>
+    <description lang='fr'>Frites, Hot-Dog, Glace, Pizza - Ouvert de 7h à 21h.</description>
+    <description lang='en'>Frits, Hot-Dog, Icecream, Pizza - Open 7pm to 9am.</description>
+    <description lang='de'>Pommes, Hot-Dogs, Eis, Pizza - Geöffnet von 7h bis 21h.</description>
+  </model>
+</object>

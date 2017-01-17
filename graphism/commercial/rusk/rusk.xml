@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='12' worker='90' type='c'>
+    <cost destroy='70000' income='142'/>
+    <r>
+      <need max='30' min='4'/>
+      <provide/>
+    </r>
+    <c>
+      <need max='150' min='10'/>
+      <provide max='50' min='20'/>
+    </c>
+    <i>
+      <need max='40'/>
+      <provide/>
+    </i>
+    <t>
+      <need min='24'/>
+      <provide max='78' min='60'/>
+    </t>
+    <w>
+      <need max='33'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='30'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='17'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-10'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='4' height='9.6' width='4'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Le Rusk</name>
+    <name lang='en'>Rusk</name>
+    <description lang='fr'>De magnifiques bureaux sur 15 étages.</description>
+    <description lang='en'>A wonderful office center of 15 levels.</description>
+    <description lang='de'>Ein Wundervolles Bürogebäude mit 15 Stockwerken.</description>
+  </model>
+</object>

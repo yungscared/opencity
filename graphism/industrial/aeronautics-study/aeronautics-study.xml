@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='5' worker='13' type='i'>
+    <cost destroy='6200' income='145'/>
+    <r>
+      <need min='3'/>
+      <provide/>
+    </r>
+    <c>
+      <need min='2'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='80'/>
+      <provide max='11' min='8'/>
+    </i>
+    <t>
+      <need max='111'/>
+      <provide max='15' min='5'/>
+    </t>
+    <w>
+      <need max='2'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='3'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='2'/>
+      <provide/>
+    </g>
+    <nature>
+      <need max='-8'/>
+      <provide max='-1'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='2' height='1.2' width='4'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Bureau d&apos;études aéronotiques</name>
+    <name lang='en'>Aeronautics study office</name>
+    <name lang='de'>Zentrum für Raumfahr Studien</name>
+    <description lang='fr'>Houston, on a un problème.</description>
+    <description lang='en'>Houston, we&apos;ve have a problem.</description>
+    <description lang='de'>Houston, wir haben ein Problem.</description>
+  </model>
+</object>

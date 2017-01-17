@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='6' worker='1' inhabitant='35' type='r'>
+    <cost destroy='8000' income='128'/>
+    <r>
+      <need max='25' min='2'/>
+      <provide max='8' min='4'/>
+    </r>
+    <c>
+      <need min='1'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='16'/>
+      <provide/>
+    </i>
+    <t>
+      <need min='1'/>
+      <provide max='12' min='5'/>
+    </t>
+    <w>
+      <need max='4'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='5'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='3'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-3'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='1.2' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='en'>Alexandria</name>
+    <description lang='fr'>Un bon vieux batiment (avec des cafards dans le plancher).</description>
+    <description lang='en'>Old good building (with cockroach in the floor).</description>
+    <description lang='de'>Gutes altes Gebäude (mit Kakerlaken im Boden)</description>
+  </model>
+</object>

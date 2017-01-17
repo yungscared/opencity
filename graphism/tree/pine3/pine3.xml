@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='2' type='tree'>
+    <cost build='12' destroy='2'/>
+    <r>
+      <need/>
+      <provide/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <t>
+      <need/>
+      <provide/>
+    </t>
+    <w>
+      <need/>
+      <provide/>
+    </w>
+    <e>
+      <need/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need max='-3'/>
+      <provide max='2'/>
+    </nature>
+    <direction value='snwe'/>
+  </property>
+  <model length='1' height='0.7' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Pin</name>
+    <name lang='en'>Pine</name>
+    <name lang='de'>Kiefer</name>
+    <description lang='en'>My pine, why you... You space bastard! You killed my pine! (Old Man Peabody in Back to the Future)</description>
+    <description lang='de'>Meine Kiefer, warum du... Du Space Bastard! Du hast meine Kiefer getötet! (Old man Peabody in "Back to the Future")</description>
+  </model>
+</object>

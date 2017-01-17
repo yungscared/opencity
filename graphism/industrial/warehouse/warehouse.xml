@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='5' worker='4' type='i'>
+    <cost destroy='1900' income='110'/>
+    <r>
+      <need/>
+      <provide/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need max='17'/>
+      <provide max='4'/>
+    </i>
+    <t>
+      <need min='1'/>
+      <provide max='3'/>
+    </t>
+    <w>
+      <need/>
+      <provide/>
+    </w>
+    <e>
+      <need max='1'/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-3'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.45' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Maçonnerie Aster&amp;Fils</name>
+    <name lang='en'>Bricklaying Aster&amp;Sons</name>
+    <name lang='de'>Mauererei Aster&amp;Söhne</name>
+    <description lang='fr'>Dépot de l&apos;entreprise de maçonnerie Aster&amp;Fils.</description>
+    <description lang='en'>Warehouse of bricklaying Aster&amp;Sons.</description>
+    <description lang='de'>Werkstatt von Aster&amp;Söhne.</description>
+  </model>
+</object>

@@ -1,0 +1,44 @@
+------------------------------------------------------------------------------
+OpenCity credits
+------------------------------------------------------------------------------
+Last modified:
+	$Id: AUTHORS 291 2007-11-27 21:09:32Z neoneurone $
+
+Developer:
+
+	* Duong-Khang NGUYEN
+		neoneurone at users sf net
+
+
+Graphist & brainstormer:
+
+	* Frédéric RODRIGO
+		f.rodrigo at free fr
+
+
+Quality Assurance:
+
+	* Wolfgang Bauer
+		Linux beta tester
+	* Tymon DOUGLAS
+		Linux / Win32 beta tester
+    * Bruno DLUBAK
+		MacOS X beta tester and packager
+
+
+Contributors:
+
+	* Stephen M. WEBB
+		Configure script patch
+	* Victor STINNER
+		Basic MAS library
+	* Bartosz DEBSKI
+		OpenCity site's banner
+	* Nicolas PASCOLI
+		Various 3D models
+	* "pucelo"
+		Industrial model
+	* Jacopo SIRIANNI
+		Italian documentation
+	* Cristian Deluxe
+		Spanish documentation

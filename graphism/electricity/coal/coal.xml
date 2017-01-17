@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='7' worker='10' type='e'>
+    <cost build='90000' destroy='12000' support='9000'/>
+    <r>
+      <need/>
+      <provide max='-10' min='-4'/>
+    </r>
+    <c>
+      <need/>
+      <provide max='-3' min='-1'/>
+    </c>
+    <i>
+      <need/>
+      <provide max='6' min='2'/>
+    </i>
+    <t>
+      <need/>
+      <provide max='8' min='6'/>
+    </t>
+    <w>
+      <need max='8'/>
+      <provide/>
+    </w>
+    <e>
+      <need/>
+      <provide max='600'/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-20'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='3' height='2.8' width='5'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2007</year>
+    </author>
+    <name lang='fr'>Centale à charbon</name>
+    <name lang='en'>Coal plant</name>
+    <name lang='de'>Kohlekraftwerk</name>
+    <description lang='fr'>Centrale électric à charbon.</description>
+    <description lang='en'>Coal electric plant.</description>
+    <description lang='de'>Ein Kohlekraftwerk, benötigt weniger Platz als ein Atomkraftwerk - bringt dafür aber auch nicht soviel Leistung und verschmutzt die Umwelt mehr.</description>
+  </model>
+</object>

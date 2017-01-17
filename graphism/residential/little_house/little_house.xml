@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='3' inhabitant='3' type='r'>
+    <cost destroy='1000' income='111'/>
+    <r>
+      <need max='6'/>
+      <provide max='3' min='1'/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need min='1'/>
+      <provide/>
+    </i>
+    <t>
+      <need/>
+      <provide max='1'/>
+    </t>
+    <w>
+      <need max='1'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='1'/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need max='-15'/>
+      <provide/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.525' width='1'>
+    <author>
+      <name>Nicolas Pascoli</name>
+      <email>nicolas-pascoli hotmail.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Petite maison</name>
+    <name lang='en'>Little house</name>
+    <name lang='de'>Kleines Haus</name>
+    <description lang='fr'>Une maison ou les gens vivent heureux.</description>
+    <description lang='en'>Happyfull house.</description>
+    <description lang='de'>Fröhliches Haus.</description>
+  </model>
+</object>

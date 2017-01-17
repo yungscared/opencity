@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' inhabitant='6' type='r'>
+    <cost destroy='2600' income='140'/>
+    <r>
+      <need max='22' min='3'/>
+      <provide max='5' min='3'/>
+    </r>
+    <c>
+      <need max='17' min='2'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='15'/>
+      <provide/>
+    </i>
+    <t>
+      <need max='15'/>
+      <provide max='3' min='1'/>
+    </t>
+    <w>
+      <need max='3'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='3'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='1'/>
+      <provide/>
+    </g>
+    <nature>
+      <need max='-8'/>
+      <provide max='1'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.72' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Lumière d&apos;étoile</name>
+    <name lang='en'>Light of Start</name>
+    <name lang='de'>Licht des Starts</name>
+    <description lang='fr'>Cette maison a été conçue par le célèbre architecte JBK McHelen.</description>
+    <description lang='en'>This house has been designed by the famous architect JBK McHelen.</description>
+    <description lang='de'>Dieses Haus wurde vom Berühmten Architekt JBK McHelen entworfen.</description>
+  </model>
+</object>

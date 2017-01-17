@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='7' worker='2' inhabitant='105' type='r'>
+    <cost destroy='11000' income='128'/>
+    <r>
+      <need max='30' min='4'/>
+      <provide max='12' min='5'/>
+    </r>
+    <c>
+      <need min='2'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='12'/>
+      <provide/>
+    </i>
+    <t>
+      <need max='100' min='10'/>
+      <provide max='23' min='12'/>
+    </t>
+    <w>
+      <need max='8'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='9'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='4'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-3'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='2' height='2.2' width='2'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Les Charmilles</name>
+    <name lang='en'>The Charmilles</name>
+    <name lang='de'>Das Charmilles</name>
+    <description lang='fr'>Le concierge ne vous laisse pas entrer si vous ne vivez pas ici.</description>
+    <description lang='en'>The superintendent doesn&apos;t let you enter if you don&apos;t live here.</description>
+    <description lang='de'>Der Hausmeister wird sie nicht reinlassen, wenn sie nicht hier wohnen.</description>
+  </model>
+</object>

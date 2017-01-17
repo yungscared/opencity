@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='13' worker='10' type='government'>
+    <cost build='40000' destroy='4000' support='3500'/>
+    <r>
+      <need max='50'/>
+      <provide max='3'/>
+    </r>
+    <c>
+      <need/>
+      <provide max='3'/>
+    </c>
+    <i>
+      <need/>
+      <provide max='6' min='1'/>
+    </i>
+    <t>
+      <need/>
+      <provide max='6' min='1'/>
+    </t>
+    <w>
+      <need max='9'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='2'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='2'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-3'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='2' height='1.5' width='2'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Pompier</name>
+    <name lang='en'>Fire Station</name>
+    <name lang='de'>Feuerwache</name>
+    <description lang='fr'>Caserne de pompier de taille moyenne.</description>
+    <description lang='en'>Medium size Fire Station.</description>
+    <description lang='de'>Eine Mittelgroße Feuerwache.</description>
+  </model>
+</object>

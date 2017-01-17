@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='6' worker='15' type='e'>
+    <cost build='230000' destroy='50000' support='19000'/>
+    <r>
+      <need/>
+      <provide max='-2'/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need/>
+      <provide max='2'/>
+    </i>
+    <t>
+      <need/>
+      <provide max='14' min='10'/>
+    </t>
+    <w>
+      <need max='21'/>
+      <provide/>
+    </w>
+    <e>
+      <need/>
+      <provide max='3000'/>
+    </e>
+    <g>
+      <need max='4'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-3'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='6' height='2.6' width='6'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Nucléaire</name>
+    <name lang='en'>Nuclear</name>
+    <name lang='de'>Atomkraftwerk</name>
+    <description lang='fr'>Centrale nucléaire.</description>
+    <description lang='en'>Nuclear electric plant.</description>
+    <description lang='de'>Ein Atomkraftwerk benötigt wesentlich mehr Platz als ein Kohlekraftwerk, bringt jedoch mehr Energie und belastet die Umwelt nicht so sehr,... sofern es nicht explodiert.</description>
+  </model>
+</object>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' worker='3' type='i'>
+    <cost destroy='2800' income='123'/>
+    <r>
+      <need/>
+      <provide/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need max='21'/>
+      <provide max='4' min='1'/>
+    </i>
+    <t>
+      <need/>
+      <provide max='3' min='1'/>
+    </t>
+    <w>
+      <need max='2'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='1'/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-4'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.72' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2006</year>
+    </author>
+    <name lang='fr'>Réservoir</name>
+    <name lang='en'>Tank</name>
+    <name lang='de'>Tanks</name>
+    <description lang='fr'>Réservoir de la E-Curv INC. international company. Ne l&apos;aisser pas vos enfants jouer par ici. Il est deja arrivé dans le passé que des réservoirs de la E-Curv INC. explosent.</description>
+    <description lang='en'>Tank of the E-Curv INC. international company.  Don&apos;t let children play around. In the past, tanks of E-Curv INC. already explode.</description>
+    <description lang='de'>Tanks der E-Curv INC: international company. Lassen Sie ihre Kinder nicht hier spielen, in der Vergangenheit sind schon Tanks der E-Curv INC. explodiert.</description>
+  </model>
+</object>
